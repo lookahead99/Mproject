@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MProject", "MProject.csproj", "{B4E71732-C21F-615F-2D11-7B6F69B8E181}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MProject.Editor", "MProject.Editor.csproj", "{EE265B4E-633E-D2C3-D1DA-5C658D8D0FF4}"
+EndProject
+Project("{5697748A-77EF-44CA-8824-4F5637E5945B}") = "LuaTest", "Assets\ZTest\lua\LuaTest.luaproj", "{C30ACA4E-AE85-476D-BDFC-65201B5A0DCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4E71732-C21F-615F-2D11-7B6F69B8E181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4E71732-C21F-615F-2D11-7B6F69B8E181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4E71732-C21F-615F-2D11-7B6F69B8E181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4E71732-C21F-615F-2D11-7B6F69B8E181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE265B4E-633E-D2C3-D1DA-5C658D8D0FF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE265B4E-633E-D2C3-D1DA-5C658D8D0FF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE265B4E-633E-D2C3-D1DA-5C658D8D0FF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE265B4E-633E-D2C3-D1DA-5C658D8D0FF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C30ACA4E-AE85-476D-BDFC-65201B5A0DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C30ACA4E-AE85-476D-BDFC-65201B5A0DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C30ACA4E-AE85-476D-BDFC-65201B5A0DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C30ACA4E-AE85-476D-BDFC-65201B5A0DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

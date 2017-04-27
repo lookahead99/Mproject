@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{c30aca4e-ae85-476d-bdfc-65201b5a0dcc}</ProjectGuid>
+    <!--$guid1$-->
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>
+    </StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="test\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="test\class.lua" />
+    <Compile Include="test\enum.lua" />
+    <Compile Include="test\GameManager.lua" />
+    <Compile Include="test\GameStateManager.lua" />
+    <Compile Include="test\LoginUI.lua" />
+    <Compile Include="test\StateCheckVersion.lua" />
+    <Compile Include="test\StateInit.lua" />
+    <Compile Include="test\test.lua" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="test\GameStateManager.lua.meta" />
+    <Content Include="test\Start.txt" />
+    <Content Include="test\test.lua.meta" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>

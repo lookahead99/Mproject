@@ -1,0 +1,9 @@
+local gameManager = require 'test.GameManager'
+function  Start()
+		print('game start~~~')
+         gameManager:Init()
+end
+
+function  Update()
+         gameManager:Update()
+end
